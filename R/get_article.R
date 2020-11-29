@@ -24,6 +24,10 @@ get_article <- function(url_path){
     rvest::html_nodes("[class='ENDBody content-block article-body-block']") %>%
     rvest::html_text()
 
+  if (identical(date, character(0))){date <- NA}
+  if (identical(author, character(0))){author <- NA}
+  if (identical(body, character(0))){body <- NA}
+
   article_info <- list(
     'date' = date,
     'author' = author,
