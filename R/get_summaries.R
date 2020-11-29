@@ -1,3 +1,6 @@
+#' @export
+
+
 get_summaries <- function(articles_list){
   summaries <- c()
 

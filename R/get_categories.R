@@ -1,3 +1,6 @@
+#' @export
+
+
 get_categories <- function(urls){
   categories_df <- urls %>%
            stringr::str_remove("noticias/") %>%

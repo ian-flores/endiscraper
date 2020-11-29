@@ -1,3 +1,6 @@
+#' @export
+
+
 get_article <- function(url_path){
   base_url <- "elnuevodia.com"
 
