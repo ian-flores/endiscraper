@@ -27,7 +27,8 @@ get_article <- function(url_path){
   article_info <- list(
     'date' = date,
     'author' = author,
-    'body' = body
+    'body' = body,
+    'url_path' = url_path
   )
 
   return(article_info)
