@@ -1,0 +1,24 @@
+Package: endiscraper
+Title: Scrapes El Nuevo Dia Newspaper
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Ian",
+           family = "Flores Siaca",
+           role = c("aut", "cre"),
+           email = "iflores.siaca@hey.com",
+           comment = c(ORCID = "0000-0002-7573-0708"))
+Description: It allows you to scrape news articles from El Nuevo Dia.
+License: MIT + file LICENSE
+Suggests: 
+    testthat
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    magrittr,
+    rvest,
+    stringr,
+    purrr,
+    httr,
+    xml2
